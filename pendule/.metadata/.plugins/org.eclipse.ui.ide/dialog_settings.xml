@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Pendule_workspace\pendule"/>
+		<item value="U:\s7\proj IPS\pendule_1\Startup"/>
+		<item value="U:\s7\proj IPS\IPS"/>
+		<item value="U:\s7\proj IPS\pendule_1"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>

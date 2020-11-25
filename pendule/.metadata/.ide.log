@@ -1,0 +1,763 @@
+2020-10-14 11:19:30,723 [INFO] Activator:176 - 
+
+
+2020-10-14 11:19:30,723 [INFO] Activator:177 - !SESSION log4j initialized
+2020-10-14 11:21:37,554 [INFO] Activator:176 - 
+
+
+2020-10-14 11:21:37,554 [INFO] Activator:177 - !SESSION log4j initialized
+2020-10-14 11:29:09,814 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926
+2020-10-14 11:29:09,830 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/mcu/
+2020-10-14 11:29:09,846 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/boardmanager/
+2020-10-14 11:29:09,846 [INFO] DbMcus:262 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/
+2020-10-14 11:29:09,846 [INFO] DbBoards:225 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/
+2020-10-14 11:29:09,846 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/mcu/
+2020-10-14 11:29:09,877 [ERROR] ApiFinderProperties:197 - Copy problem with src file : C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\db\plugins\mcufinder\mcu\csand target file : C:\Users\t7boitti\.stmcufinder\plugins\mcufinder\mcu\cs
+2020-10-14 11:29:09,986 [WARN] ApiFinderProperties:106 - C:\Users\t7boitti\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2020-10-14 11:29:09,986 [INFO] DbMcusAds:72 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:09,986 [INFO] DbMcusDocs:90 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,002 [INFO] DbMcusJson:59 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,002 [INFO] DbBoardsDocs:82 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,002 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,002 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-10-14 11:29:10,096 [INFO] RulesReader:52 - Compatibility file has been processed (156 Rules)
+2020-10-14 11:29:10,236 [INFO] MicroXplorer:521 - Detected Java Version = 1.8.0_202
+2020-10-14 11:29:10,236 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/mcu/
+2020-10-14 11:29:10,236 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/boardmanager/
+2020-10-14 11:29:10,236 [INFO] DbMcus:262 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/
+2020-10-14 11:29:10,236 [INFO] DbBoards:225 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/
+2020-10-14 11:29:10,236 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/mcu/
+2020-10-14 11:29:10,236 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,236 [INFO] DbMcusAds:72 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,236 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,236 [INFO] DbMcusDocs:90 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,236 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,236 [INFO] DbMcusJson:59 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,252 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,252 [INFO] DbBoardsDocs:82 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,252 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,252 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,252 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,252 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,252 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-10-14 11:29:10,346 [INFO] MainPanel:211 - HeapMemory: 307232768
+2020-10-14 11:29:10,424 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/mcu/
+2020-10-14 11:29:10,424 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/boardmanager/
+2020-10-14 11:29:10,424 [INFO] DbMcus:262 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/
+2020-10-14 11:29:10,439 [INFO] DbBoards:225 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/
+2020-10-14 11:29:10,439 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/mcu/
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [INFO] DbMcusAds:72 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [INFO] DbMcusDocs:90 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [INFO] DbMcusJson:59 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [INFO] DbBoardsDocs:82 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder/ => C:\Users\t7boitti\.stmcufinder\plugins\mcufinder
+2020-10-14 11:29:10,439 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-10-14 11:29:10,471 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926
+2020-10-14 11:29:10,471 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2020-10-14 11:29:10,471 [INFO] PluginManage:292 - Check plugin analytics
+2020-10-14 11:29:10,486 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-10-14 11:29:10,486 [INFO] PluginManage:292 - Check plugin clock
+2020-10-14 11:29:10,502 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-10-14 11:29:10,502 [INFO] PluginManage:292 - Check plugin ddr
+2020-10-14 11:29:10,517 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-10-14 11:29:10,517 [INFO] PluginManage:292 - Check plugin filemanager
+2020-10-14 11:29:10,642 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-10-14 11:29:10,642 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-10-14 11:29:10,658 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-10-14 11:29:10,658 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-10-14 11:29:10,674 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-10-14 11:29:10,674 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-10-14 11:29:10,720 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-10-14 11:29:10,720 [INFO] PluginManage:292 - Check plugin power
+2020-10-14 11:29:10,720 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-10-14 11:29:10,720 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-10-14 11:29:10,736 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-10-14 11:29:10,736 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-10-14 11:29:10,767 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/t7boitti/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 0
+2020-10-14 11:29:10,767 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-10-14 11:29:10,767 [INFO] PluginManage:292 - Check plugin tools
+2020-10-14 11:29:10,799 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-10-14 11:29:10,799 [INFO] PluginManage:292 - Check plugin updater
+2020-10-14 11:29:10,799 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-10-14 11:29:10,814 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-10-14 11:29:11,017 [INFO] PinOutPanel:1361 - setPackage(No Configuration,No Configuration)
+2020-10-14 11:29:11,158 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-10-14 11:29:11,173 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-10-14 11:29:11,205 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-10-14 11:29:11,220 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-10-14 11:29:11,236 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-10-14 11:29:11,267 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-10-14 11:29:11,283 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-10-14 11:29:11,283 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-10-14 11:29:11,330 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-10-14 11:29:11,361 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-10-14 11:29:11,377 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-10-14 11:29:11,423 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-10-14 11:29:11,502 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2020-10-14 11:29:11,595 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-10-14 11:29:11,595 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-10-14 11:29:11,627 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-10-14 11:29:11,658 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-10-14 11:29:11,689 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-10-14 11:29:11,767 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-10-14 11:29:11,798 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-10-14 11:29:11,798 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-10-14 11:29:11,814 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-10-14 11:29:11,830 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-10-14 11:29:11,861 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-10-14 11:29:11,876 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-10-14 11:29:11,892 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-10-14 11:29:11,908 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-10-14 11:29:11,939 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-10-14 11:29:11,970 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-10-14 11:29:11,986 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-10-14 11:29:12,001 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-10-14 11:29:12,048 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-10-14 11:29:12,064 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-10-14 11:29:12,080 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-10-14 11:29:12,095 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-10-14 11:29:12,111 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-10-14 11:29:12,126 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-10-14 11:29:12,786 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-10-14 11:29:12,958 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-10-14 11:29:12,974 [INFO] PinOutPanel:1361 - setPackage(No Configuration,No Configuration)
+2020-10-14 11:29:12,974 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-10-14 11:29:12,989 [INFO] Updater:860 - Updater Version found : 5.2.1
+2020-10-14 11:29:13,005 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926
+2020-10-14 11:29:13,036 [INFO] MainUpdater:439 - Copy updater definitions from MX database
+2020-10-14 11:29:13,536 [INFO] MainUpdater:2032 - connection check result : 10
+2020-10-14 11:29:13,536 [INFO] MainUpdater:223 - Updater Check For Update Now.
+2020-10-14 11:29:13,536 [INFO] MicroXplorer:401 - Change Database Version : DB.5.0.21
+2020-10-14 11:29:13,552 [WARN] CheckServerUpdateThread:167 - Error reading file: updaterThirdParties.xml
+2020-10-14 11:29:13,552 [WARN] CheckServerUpdateThread:84 - Open Updater Control File Fail
+2020-10-14 11:29:13,567 [INFO] CheckServerUpdateThread:121 - End of CheckServer Thread
+2020-10-14 11:29:13,739 [INFO] MainUpdater:2032 - connection check result : 10
+2020-10-14 11:29:13,739 [INFO] LogOutputStream:68 - [STDOUT_REDIRECT] Successfull proxy connection.
+2020-10-14 11:29:13,786 [INFO] IntegrityCheckThread:94 - End integrity checks thread
+2020-10-14 11:29:13,786 [INFO] ThirdPartyDb:263 - Close Third Party DataBase File (C:/Users/t7boitti/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-10-14 11:29:13,880 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2020-10-14 11:29:13,895 [INFO] FinderPluginLoader:85 - Searching for filters in installed packs
+2020-10-14 11:29:13,895 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/mcu/families.xml
+2020-10-14 11:29:14,364 [INFO] DbMcusJson:87 - JSON generation date=Tue May 21 20:47:07 CEST 2019 (1558464427)
+2020-10-14 11:29:14,936 [INFO] DbMcus:192 - Found 1486 MCUs (1445 are supported by CubeMX, 1445 are visible in CubeMX)
+2020-10-14 11:29:14,936 [INFO] ApiDb:147 - User favorites file not found: C:\Users\t7boitti/.stm32cubeide/favorites.mcus.txt
+2020-10-14 11:29:14,936 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2020-10-14 11:29:15,463 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 17:46:15 CET 2019 (1550681175)
+2020-10-14 11:29:15,635 [INFO] ServerAccessManage:347 - Download File 
+2020-10-14 11:29:15,760 [INFO] LoadUrlFilesThread:147 - End of LoadServerUrlFiles without Thread
+2020-10-14 11:29:15,791 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/t7boitti/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2020-10-14 11:29:16,291 [INFO] ServerAccessManage:347 - Download File mcusDocs.json
+2020-10-14 11:29:16,338 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2020-10-14 11:29:16,478 [INFO] ServerAccessManage:347 - Download File mcusFeaturesAndDescription.json
+2020-10-14 11:29:17,250 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2020-10-14 11:29:17,313 [INFO] ServerAccessManage:347 - Download File mcusAds.json
+2020-10-14 11:29:17,344 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2020-10-14 11:29:17,406 [INFO] ServerAccessManage:347 - Download File boardsDocs.json
+2020-10-14 11:29:17,453 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2020-10-14 11:29:17,523 [INFO] ServerAccessManage:347 - Download File boards.json
+2020-10-14 11:29:17,570 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2020-10-14 11:29:17,739 [INFO] ServerAccessManage:347 - Download File crdb.zip
+2020-10-14 11:29:17,848 [INFO] FileExtend:190 - Unzip File : crdb.zip
+2020-10-14 11:29:17,864 [INFO] FileExtend:205 - Standard Zip Deflate
+2020-10-14 11:29:17,895 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2020-10-14 11:29:17,895 [INFO] DbMcusDocs:127 - JSON generation date=Mon Sep 28 18:14:50 CEST 2020 (1601309690)
+2020-10-14 11:29:17,926 [INFO] DbMcusDocs:59 - Found 65 MCUs documents
+2020-10-14 11:29:17,926 [INFO] ApiDb:186 - Save user favorites file C:\Users\t7boitti/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-10-14 11:29:17,926 [INFO] ApiDb:191 - User favorites MCUs=[]
+2020-10-14 11:29:17,926 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/mcu/families.xml
+2020-10-14 11:29:18,254 [INFO] DbMcusJson:87 - JSON generation date=Mon Sep 28 18:14:50 CEST 2020 (1601309690)
+2020-10-14 11:29:18,779 [INFO] DbMcus:192 - Found 1486 MCUs (1445 are supported by CubeMX, 1445 are visible in CubeMX)
+2020-10-14 11:29:18,779 [INFO] ApiDb:158 - Load user favorites file C:\Users\t7boitti/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2020-10-14 11:29:18,779 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-10-14 11:29:18,779 [INFO] DbMcus:203 - Set 0 / 0 favorites MCUs
+2020-10-14 11:29:18,826 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2020-10-14 11:29:18,998 [INFO] DbBoardsDocs:119 - JSON generation date=Mon Sep 28 18:14:50 CEST 2020 (1601309690)
+2020-10-14 11:29:19,045 [INFO] DbBoardsPdsc:92 - Found 18 items
+2020-10-14 11:29:19,045 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-10-14 11:29:19,060 [INFO] DbBoardsPdsc:92 - Found 27 items
+2020-10-14 11:29:19,060 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-10-14 11:29:19,076 [INFO] DbBoardsPdsc:92 - Found 35 items
+2020-10-14 11:29:19,091 [INFO] DbBoardsPdsc:92 - Found 37 items
+2020-10-14 11:29:19,107 [INFO] DbBoardsJson:79 - JSON generation date=Mon Sep 28 15:22:09 CEST 2020 (1601299329)
+2020-10-14 11:29:19,107 [INFO] DbBoards:120 - Found 142 boards (126 are supported by CubeMX)
+2020-10-14 11:29:19,107 [WARN] DbBoards:145 - board NUCLEO-F303ZE / document id not found: 3602
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F303ZE / document id not found: 3989
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F303ZE / document id not found: 4166
+2020-10-14 11:29:19,123 [WARN] DbBoards:149 - board NUCLEO-F303ZE has no document !
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F207ZG / document id not found: 3602
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F207ZG / document id not found: 3989
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F207ZG / document id not found: 4166
+2020-10-14 11:29:19,123 [WARN] DbBoards:149 - board NUCLEO-F207ZG has no document !
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F429ZI / document id not found: 3602
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F429ZI / document id not found: 3989
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F429ZI / document id not found: 4166
+2020-10-14 11:29:19,123 [WARN] DbBoards:149 - board NUCLEO-F429ZI has no document !
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F446ZE / document id not found: 3602
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F446ZE / document id not found: 3989
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F446ZE / document id not found: 4166
+2020-10-14 11:29:19,123 [WARN] DbBoards:149 - board NUCLEO-F446ZE has no document !
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F746ZG / document id not found: 3602
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F746ZG / document id not found: 3989
+2020-10-14 11:29:19,123 [WARN] DbBoards:145 - board NUCLEO-F746ZG / document id not found: 4166
+2020-10-14 11:29:19,138 [WARN] DbBoards:149 - board NUCLEO-F746ZG has no document !
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F767ZI / document id not found: 3602
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F767ZI / document id not found: 3989
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F767ZI / document id not found: 4166
+2020-10-14 11:29:19,138 [WARN] DbBoards:149 - board NUCLEO-F767ZI has no document !
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F412ZG / document id not found: 3602
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F412ZG / document id not found: 3989
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F412ZG / document id not found: 4166
+2020-10-14 11:29:19,138 [WARN] DbBoards:149 - board NUCLEO-F412ZG has no document !
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F413ZH / document id not found: 3602
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F413ZH / document id not found: 3989
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-F413ZH / document id not found: 4166
+2020-10-14 11:29:19,138 [WARN] DbBoards:149 - board NUCLEO-F413ZH has no document !
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-L496ZG / document id not found: 3602
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-L496ZG / document id not found: 4165
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-L496ZG / document id not found: 4166
+2020-10-14 11:29:19,138 [WARN] DbBoards:149 - board NUCLEO-L496ZG has no document !
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-L496ZG-P / document id not found: 3602
+2020-10-14 11:29:19,138 [WARN] DbBoards:145 - board NUCLEO-L496ZG-P / document id not found: 4165
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L496ZG-P / document id not found: 4166
+2020-10-14 11:29:19,154 [WARN] DbBoards:149 - board NUCLEO-L496ZG-P has no document !
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L4R5ZI / document id not found: 3602
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L4R5ZI / document id not found: 4165
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L4R5ZI / document id not found: 4166
+2020-10-14 11:29:19,154 [WARN] DbBoards:149 - board NUCLEO-L4R5ZI has no document !
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L4R5ZI-P / document id not found: 3602
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L4R5ZI-P / document id not found: 4165
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-L4R5ZI-P / document id not found: 4166
+2020-10-14 11:29:19,154 [WARN] DbBoards:149 - board NUCLEO-L4R5ZI-P has no document !
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-F722ZE / document id not found: 3602
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-F722ZE / document id not found: 3989
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-F722ZE / document id not found: 4166
+2020-10-14 11:29:19,154 [WARN] DbBoards:149 - board NUCLEO-F722ZE has no document !
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-H743ZI / document id not found: 3602
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-H743ZI / document id not found: 3989
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-H743ZI / document id not found: 4166
+2020-10-14 11:29:19,154 [WARN] DbBoards:145 - board NUCLEO-H743ZI / document id not found: 4418
+2020-10-14 11:29:19,154 [WARN] DbBoards:149 - board NUCLEO-H743ZI has no document !
+2020-10-14 11:29:19,170 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-H753ZI / document id not found: 4166
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-H753ZI / document id not found: 4418
+2020-10-14 11:29:19,170 [WARN] DbBoards:149 - board NUCLEO-H753ZI has no document !
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-H745ZI-Q / document id not found: 4166
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-H745ZI-Q / document id not found: 4419
+2020-10-14 11:29:19,170 [WARN] DbBoards:149 - board NUCLEO-H745ZI-Q has no document !
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-H755ZI-Q / document id not found: 4166
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-H755ZI-Q / document id not found: 4419
+2020-10-14 11:29:19,170 [WARN] DbBoards:149 - board NUCLEO-H755ZI-Q has no document !
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F042K6 / document id not found: 3602
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F042K6 / document id not found: 3902
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F042K6 / document id not found: 3972
+2020-10-14 11:29:19,170 [WARN] DbBoards:149 - board NUCLEO-F042K6 has no document !
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F031K6 / document id not found: 3602
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F031K6 / document id not found: 3902
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F031K6 / document id not found: 3972
+2020-10-14 11:29:19,170 [WARN] DbBoards:149 - board NUCLEO-F031K6 has no document !
+2020-10-14 11:29:19,170 [WARN] DbBoards:145 - board NUCLEO-F303K8 / document id not found: 3602
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-F303K8 / document id not found: 3902
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-F303K8 / document id not found: 3972
+2020-10-14 11:29:19,185 [WARN] DbBoards:149 - board NUCLEO-F303K8 has no document !
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L031K6 / document id not found: 3602
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L031K6 / document id not found: 3902
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L031K6 / document id not found: 3972
+2020-10-14 11:29:19,185 [WARN] DbBoards:149 - board NUCLEO-L031K6 has no document !
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L011K4 / document id not found: 3602
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L011K4 / document id not found: 3902
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L011K4 / document id not found: 3972
+2020-10-14 11:29:19,185 [WARN] DbBoards:149 - board NUCLEO-L011K4 has no document !
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L432KC / document id not found: 3602
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L432KC / document id not found: 3902
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L432KC / document id not found: 3972
+2020-10-14 11:29:19,185 [WARN] DbBoards:149 - board NUCLEO-L432KC has no document !
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L412KB / document id not found: 3602
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L412KB / document id not found: 3902
+2020-10-14 11:29:19,185 [WARN] DbBoards:145 - board NUCLEO-L412KB / document id not found: 3972
+2020-10-14 11:29:19,185 [WARN] DbBoards:149 - board NUCLEO-L412KB has no document !
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-G431KB / document id not found: 3902
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-G431KB / document id not found: 4457
+2020-10-14 11:29:19,201 [WARN] DbBoards:149 - board NUCLEO-G431KB has no document !
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-G031K8 / document id not found: 3902
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-G031K8 / document id not found: 4478
+2020-10-14 11:29:19,201 [WARN] DbBoards:149 - board NUCLEO-G031K8 has no document !
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F030R8 / document id not found: 3598
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F030R8 / document id not found: 3600
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F030R8 / document id not found: 3602
+2020-10-14 11:29:19,201 [WARN] DbBoards:149 - board NUCLEO-F030R8 has no document !
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F070RB / document id not found: 3598
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F070RB / document id not found: 3600
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F070RB / document id not found: 3602
+2020-10-14 11:29:19,201 [WARN] DbBoards:149 - board NUCLEO-F070RB has no document !
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F072RB / document id not found: 3598
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F072RB / document id not found: 3600
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F072RB / document id not found: 3602
+2020-10-14 11:29:19,201 [WARN] DbBoards:149 - board NUCLEO-F072RB has no document !
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F091RC / document id not found: 3598
+2020-10-14 11:29:19,201 [WARN] DbBoards:145 - board NUCLEO-F091RC / document id not found: 3600
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F091RC / document id not found: 3602
+2020-10-14 11:29:19,216 [WARN] DbBoards:149 - board NUCLEO-F091RC has no document !
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F103RB / document id not found: 3598
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F103RB / document id not found: 3600
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F103RB / document id not found: 3602
+2020-10-14 11:29:19,216 [WARN] DbBoards:149 - board NUCLEO-F103RB has no document !
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F302R8 / document id not found: 3598
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F302R8 / document id not found: 3600
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F302R8 / document id not found: 3602
+2020-10-14 11:29:19,216 [WARN] DbBoards:149 - board NUCLEO-F302R8 has no document !
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F303RE / document id not found: 3598
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F303RE / document id not found: 3600
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F303RE / document id not found: 3602
+2020-10-14 11:29:19,216 [WARN] DbBoards:149 - board NUCLEO-F303RE has no document !
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F334R8 / document id not found: 3598
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F334R8 / document id not found: 3600
+2020-10-14 11:29:19,216 [WARN] DbBoards:145 - board NUCLEO-F334R8 / document id not found: 3602
+2020-10-14 11:29:19,216 [WARN] DbBoards:149 - board NUCLEO-F334R8 has no document !
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F401RE / document id not found: 3598
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F401RE / document id not found: 3600
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F401RE / document id not found: 3602
+2020-10-14 11:29:19,248 [WARN] DbBoards:149 - board NUCLEO-F401RE has no document !
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F411RE / document id not found: 3598
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F411RE / document id not found: 3600
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F411RE / document id not found: 3602
+2020-10-14 11:29:19,248 [WARN] DbBoards:149 - board NUCLEO-F411RE has no document !
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-L053R8 / document id not found: 3598
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-L053R8 / document id not found: 3600
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-L053R8 / document id not found: 3602
+2020-10-14 11:29:19,248 [WARN] DbBoards:149 - board NUCLEO-L053R8 has no document !
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-L152RE / document id not found: 3598
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-L152RE / document id not found: 3600
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-L152RE / document id not found: 3602
+2020-10-14 11:29:19,248 [WARN] DbBoards:149 - board NUCLEO-L152RE has no document !
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F446RE / document id not found: 3598
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F446RE / document id not found: 3600
+2020-10-14 11:29:19,248 [WARN] DbBoards:145 - board NUCLEO-F446RE / document id not found: 3602
+2020-10-14 11:29:19,263 [WARN] DbBoards:149 - board NUCLEO-F446RE has no document !
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L476RG / document id not found: 3598
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L476RG / document id not found: 3600
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L476RG / document id not found: 3602
+2020-10-14 11:29:19,263 [WARN] DbBoards:149 - board NUCLEO-L476RG has no document !
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-F410RB / document id not found: 3598
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-F410RB / document id not found: 3600
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-F410RB / document id not found: 3602
+2020-10-14 11:29:19,263 [WARN] DbBoards:149 - board NUCLEO-F410RB has no document !
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L073RZ / document id not found: 3598
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L073RZ / document id not found: 3600
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L073RZ / document id not found: 3602
+2020-10-14 11:29:19,263 [WARN] DbBoards:149 - board NUCLEO-L073RZ has no document !
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L010RB / document id not found: 3598
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L010RB / document id not found: 3600
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L010RB / document id not found: 3602
+2020-10-14 11:29:19,263 [WARN] DbBoards:149 - board NUCLEO-L010RB has no document !
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L452RE / document id not found: 3598
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L452RE / document id not found: 3600
+2020-10-14 11:29:19,263 [WARN] DbBoards:145 - board NUCLEO-L452RE / document id not found: 3602
+2020-10-14 11:29:19,263 [WARN] DbBoards:149 - board NUCLEO-L452RE has no document !
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L452RE-P / document id not found: 3600
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L452RE-P / document id not found: 3602
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L452RE-P / document id not found: 4216
+2020-10-14 11:29:19,279 [WARN] DbBoards:149 - board NUCLEO-L452RE-P has no document !
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L433RC-P / document id not found: 3600
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L433RC-P / document id not found: 3602
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L433RC-P / document id not found: 4216
+2020-10-14 11:29:19,279 [WARN] DbBoards:149 - board NUCLEO-L433RC-P has no document !
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L412RB-P / document id not found: 3600
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L412RB-P / document id not found: 3602
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-L412RB-P / document id not found: 4216
+2020-10-14 11:29:19,279 [WARN] DbBoards:149 - board NUCLEO-L412RB-P has no document !
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-G071RB / document id not found: 3600
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-G071RB / document id not found: 3602
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-G071RB / document id not found: 4338
+2020-10-14 11:29:19,279 [WARN] DbBoards:149 - board NUCLEO-G071RB has no document !
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-G070RB / document id not found: 3600
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-G070RB / document id not found: 3602
+2020-10-14 11:29:19,279 [WARN] DbBoards:145 - board NUCLEO-G070RB / document id not found: 4338
+2020-10-14 11:29:19,279 [WARN] DbBoards:149 - board NUCLEO-G070RB has no document !
+2020-10-14 11:29:19,295 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-10-14 11:29:19,295 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board NUCLEO-G431RB / document id not found: 3600
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board NUCLEO-G431RB / document id not found: 4430
+2020-10-14 11:29:19,295 [WARN] DbBoards:149 - board NUCLEO-G431RB has no document !
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board NUCLEO-G474RE / document id not found: 3600
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board NUCLEO-G474RE / document id not found: 4430
+2020-10-14 11:29:19,295 [WARN] DbBoards:149 - board NUCLEO-G474RE has no document !
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board P-NUCLEO-WB55 / document id not found: 4332
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board P-NUCLEO-WB55 / document id not found: 4345
+2020-10-14 11:29:19,295 [WARN] DbBoards:149 - board P-NUCLEO-WB55 has no document !
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0DISCOVERY / document id not found: 3294
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0DISCOVERY / document id not found: 3400
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0DISCOVERY / document id not found: 3402
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0DISCOVERY / document id not found: 3405
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0DISCOVERY / document id not found: 3407
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0DISCOVERY / document id not found: 4079
+2020-10-14 11:29:19,295 [WARN] DbBoards:149 - board STM32F0DISCOVERY has no document !
+2020-10-14 11:29:19,295 [WARN] DbBoards:145 - board STM32F0308-DISCO / document id not found: 3522
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F0308-DISCO / document id not found: 3523
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F0308-DISCO / document id not found: 3550
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F0308-DISCO / document id not found: 4079
+2020-10-14 11:29:19,310 [WARN] DbBoards:149 - board STM32F0308-DISCO has no document !
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F072B-DISCO / document id not found: 3562
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F072B-DISCO / document id not found: 3563
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F072B-DISCO / document id not found: 3584
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F072B-DISCO / document id not found: 4079
+2020-10-14 11:29:19,310 [WARN] DbBoards:149 - board STM32F072B-DISCO has no document !
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3DISCOVERY / document id not found: 3435
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3DISCOVERY / document id not found: 3445
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3DISCOVERY / document id not found: 3446
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3DISCOVERY / document id not found: 3448
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3DISCOVERY / document id not found: 4079
+2020-10-14 11:29:19,310 [WARN] DbBoards:149 - board STM32F3DISCOVERY has no document !
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 3611
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 3621
+2020-10-14 11:29:19,310 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 3622
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 3627
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 3662
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 3682
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F3348-DISCO / document id not found: 4079
+2020-10-14 11:29:19,326 [WARN] DbBoards:149 - board STM32F3348-DISCO has no document !
+2020-10-14 11:29:19,326 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F411E-DISCO / document id not found: 3725
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F411E-DISCO / document id not found: 3731
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F411E-DISCO / document id not found: 3799
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F411E-DISCO / document id not found: 4079
+2020-10-14 11:29:19,326 [WARN] DbBoards:149 - board STM32F411E-DISCO has no document !
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 3294
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 3350
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 3354
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 3360
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 3367
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 3368
+2020-10-14 11:29:19,326 [WARN] DbBoards:145 - board STM32F407G-DISC1 / document id not found: 4079
+2020-10-14 11:29:19,326 [WARN] DbBoards:149 - board STM32F407G-DISC1 has no document !
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F429I-DISC1 / document id not found: 3360
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F429I-DISC1 / document id not found: 3533
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F429I-DISC1 / document id not found: 3540
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F429I-DISC1 / document id not found: 3556
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F429I-DISC1 / document id not found: 4079
+2020-10-14 11:29:19,341 [WARN] DbBoards:149 - board STM32F429I-DISC1 has no document !
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F469I-DISCO / document id not found: 3907
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F469I-DISCO / document id not found: 3908
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F469I-DISCO / document id not found: 3976
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F469I-DISCO / document id not found: 4079
+2020-10-14 11:29:19,341 [WARN] DbBoards:149 - board STM32F469I-DISCO has no document !
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F746G-DISCO / document id not found: 3807
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F746G-DISCO / document id not found: 3815
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F746G-DISCO / document id not found: 3983
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F746G-DISCO / document id not found: 4079
+2020-10-14 11:29:19,341 [WARN] DbBoards:149 - board STM32F746G-DISCO has no document !
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F769I-DISCO / document id not found: 4053
+2020-10-14 11:29:19,341 [WARN] DbBoards:145 - board STM32F769I-DISCO / document id not found: 4061
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F769I-DISCO / document id not found: 4079
+2020-10-14 11:29:19,357 [WARN] DbBoards:149 - board STM32F769I-DISCO has no document !
+2020-10-14 11:29:19,357 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F723E-DISCO / document id not found: 4079
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F723E-DISCO / document id not found: 4153
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F723E-DISCO / document id not found: 4154
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F723E-DISCO / document id not found: 4598
+2020-10-14 11:29:19,357 [WARN] DbBoards:149 - board STM32F723E-DISCO has no document !
+2020-10-14 11:29:19,357 [WARN] DbBoards:130 - board STM32F7308-DISCO has no document id list !
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F7508-DK / document id not found: 4079
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F7508-DK / document id not found: 4349
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32F7508-DK / document id not found: 4350
+2020-10-14 11:29:19,357 [WARN] DbBoards:149 - board STM32F7508-DK has no document !
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32L0538-DISCO / document id not found: 3671
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32L0538-DISCO / document id not found: 3681
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32L0538-DISCO / document id not found: 3696
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32L0538-DISCO / document id not found: 3697
+2020-10-14 11:29:19,357 [WARN] DbBoards:145 - board STM32L0538-DISCO / document id not found: 4079
+2020-10-14 11:29:19,373 [WARN] DbBoards:149 - board STM32L0538-DISCO has no document !
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L100C-DISCO / document id not found: 3520
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L100C-DISCO / document id not found: 3521
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L100C-DISCO / document id not found: 4079
+2020-10-14 11:29:19,373 [WARN] DbBoards:149 - board STM32L100C-DISCO has no document !
+2020-10-14 11:29:19,373 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L152C-DISCO / document id not found: 3307
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L152C-DISCO / document id not found: 3309
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L152C-DISCO / document id not found: 3333
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L152C-DISCO / document id not found: 4079
+2020-10-14 11:29:19,373 [WARN] DbBoards:149 - board STM32L152C-DISCO has no document !
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L476G-DISCO / document id not found: 3827
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L476G-DISCO / document id not found: 3828
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L476G-DISCO / document id not found: 3847
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32L476G-DISCO / document id not found: 4079
+2020-10-14 11:29:19,373 [WARN] DbBoards:149 - board STM32L476G-DISCO has no document !
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32F412G-DISCO / document id not found: 4079
+2020-10-14 11:29:19,373 [WARN] DbBoards:145 - board STM32F412G-DISCO / document id not found: 4107
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32F412G-DISCO / document id not found: 4108
+2020-10-14 11:29:19,388 [WARN] DbBoards:149 - board STM32F412G-DISCO has no document !
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32F413H-DISCO / document id not found: 4079
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32F413H-DISCO / document id not found: 4147
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32F413H-DISCO / document id not found: 4192
+2020-10-14 11:29:19,388 [WARN] DbBoards:149 - board STM32F413H-DISCO has no document !
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32VLDISCOVERY / document id not found: 3149
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32VLDISCOVERY / document id not found: 3165
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32VLDISCOVERY / document id not found: 3197
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32VLDISCOVERY / document id not found: 3199
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32VLDISCOVERY / document id not found: 3200
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32VLDISCOVERY / document id not found: 4079
+2020-10-14 11:29:19,388 [WARN] DbBoards:149 - board STM32VLDISCOVERY has no document !
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32L496G-DISCO / document id not found: 4079
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32L496G-DISCO / document id not found: 4155
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32L496G-DISCO / document id not found: 4156
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board STM32L496G-DISCO / document id not found: 4598
+2020-10-14 11:29:19,388 [WARN] DbBoards:149 - board STM32L496G-DISCO has no document !
+2020-10-14 11:29:19,388 [WARN] DbBoards:145 - board B-L475E-IOT01A1 / document id not found: 4079
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board B-L475E-IOT01A1 / document id not found: 4160
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board B-L475E-IOT01A1 / document id not found: 4200
+2020-10-14 11:29:19,404 [WARN] DbBoards:149 - board B-L475E-IOT01A1 has no document !
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32G071B-DISCO / document id not found: 4079
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32G071B-DISCO / document id not found: 4389
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32G071B-DISCO / document id not found: 4393
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32G071B-DISCO / document id not found: 4441
+2020-10-14 11:29:19,404 [WARN] DbBoards:149 - board STM32G071B-DISCO has no document !
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32G0316-DISCO / document id not found: 4486
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32G0316-DISCO / document id not found: 4487
+2020-10-14 11:29:19,404 [WARN] DbBoards:149 - board STM32G0316-DISCO has no document !
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32H747I-DISCO / document id not found: 4364
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32H747I-DISCO / document id not found: 4365
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32H747I-DISCO / document id not found: 4598
+2020-10-14 11:29:19,404 [WARN] DbBoards:149 - board STM32H747I-DISCO has no document !
+2020-10-14 11:29:19,404 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32H745I-DISCO / document id not found: 4395
+2020-10-14 11:29:19,404 [WARN] DbBoards:145 - board STM32H745I-DISCO / document id not found: 4396
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32H745I-DISCO / document id not found: 4598
+2020-10-14 11:29:19,420 [WARN] DbBoards:149 - board STM32H745I-DISCO has no document !
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32H750B-DK / document id not found: 4395
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32H750B-DK / document id not found: 4396
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32H750B-DK / document id not found: 4598
+2020-10-14 11:29:19,420 [WARN] DbBoards:149 - board STM32H750B-DK has no document !
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32L4R9I-DISCO / document id not found: 4079
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32L4R9I-DISCO / document id not found: 4208
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32L4R9I-DISCO / document id not found: 4244
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32L4R9I-DISCO / document id not found: 4598
+2020-10-14 11:29:19,420 [WARN] DbBoards:149 - board STM32L4R9I-DISCO has no document !
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board B-L072Z-LRWAN1 / document id not found: 4079
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board B-L072Z-LRWAN1 / document id not found: 4157
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board B-L072Z-LRWAN1 / document id not found: 4158
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board B-L072Z-LRWAN1 / document id not found: 4159
+2020-10-14 11:29:19,420 [WARN] DbBoards:149 - board B-L072Z-LRWAN1 has no document !
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32MP157C-DK2 / document id not found: 4400
+2020-10-14 11:29:19,420 [WARN] DbBoards:145 - board STM32MP157C-DK2 / document id not found: 4436
+2020-10-14 11:29:19,435 [WARN] DbBoards:149 - board STM32MP157C-DK2 has no document !
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM32072B-EVAL / document id not found: 3578
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM32072B-EVAL / document id not found: 3579
+2020-10-14 11:29:19,435 [WARN] DbBoards:149 - board STM32072B-EVAL has no document !
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM32091C-EVAL / document id not found: 3706
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM32091C-EVAL / document id not found: 3715
+2020-10-14 11:29:19,435 [WARN] DbBoards:149 - board STM32091C-EVAL has no document !
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3210C-EVAL / document id not found: 3049
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3210C-EVAL / document id not found: 3182
+2020-10-14 11:29:19,435 [WARN] DbBoards:149 - board STM3210C-EVAL has no document !
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3210E-EVAL / document id not found: 2997
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3210E-EVAL / document id not found: 3028
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3210E-EVAL / document id not found: 3105
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3210E-EVAL / document id not found: 3173
+2020-10-14 11:29:19,435 [WARN] DbBoards:149 - board STM3210E-EVAL has no document !
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM32100E-EVAL / document id not found: 3268
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM32100E-EVAL / document id not found: 3274
+2020-10-14 11:29:19,435 [WARN] DbBoards:149 - board STM32100E-EVAL has no document !
+2020-10-14 11:29:19,435 [WARN] DbBoards:145 - board STM3220G-EVAL / document id not found: 3275
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3220G-EVAL / document id not found: 3276
+2020-10-14 11:29:19,451 [WARN] DbBoards:149 - board STM3220G-EVAL has no document !
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3221G-EVAL / document id not found: 3286
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3221G-EVAL / document id not found: 3298
+2020-10-14 11:29:19,451 [WARN] DbBoards:149 - board STM3221G-EVAL has no document !
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM32303C-EVAL / document id not found: 3440
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM32303C-EVAL / document id not found: 3441
+2020-10-14 11:29:19,451 [WARN] DbBoards:149 - board STM32303C-EVAL has no document !
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM32303E-EVAL / document id not found: 3703
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM32303E-EVAL / document id not found: 3705
+2020-10-14 11:29:19,451 [WARN] DbBoards:149 - board STM32303E-EVAL has no document !
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM32373C-EVAL / document id not found: 3437
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM32373C-EVAL / document id not found: 3447
+2020-10-14 11:29:19,451 [WARN] DbBoards:149 - board STM32373C-EVAL has no document !
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3240G-EVAL / document id not found: 3344
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3240G-EVAL / document id not found: 3351
+2020-10-14 11:29:19,451 [WARN] DbBoards:149 - board STM3240G-EVAL has no document !
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3241G-EVAL / document id not found: 3343
+2020-10-14 11:29:19,451 [WARN] DbBoards:145 - board STM3241G-EVAL / document id not found: 3352
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM3241G-EVAL has no document !
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32429I-EVAL1 / document id not found: 3530
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32429I-EVAL1 / document id not found: 3541
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM32429I-EVAL1 has no document !
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32439I-EVAL2 / document id not found: 3531
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32439I-EVAL2 / document id not found: 3542
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM32439I-EVAL2 has no document !
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32L152D-EVAL / document id not found: 3392
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32L152D-EVAL / document id not found: 3396
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM32L152D-EVAL has no document !
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32446E-EVAL / document id not found: 3767
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32446E-EVAL / document id not found: 3772
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM32446E-EVAL has no document !
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32746G-EVAL2 / document id not found: 3777
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32746G-EVAL2 / document id not found: 3810
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM32746G-EVAL2 has no document !
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32756G-EVAL2 / document id not found: 3776
+2020-10-14 11:29:19,466 [WARN] DbBoards:145 - board STM32756G-EVAL2 / document id not found: 3811
+2020-10-14 11:29:19,466 [WARN] DbBoards:149 - board STM32756G-EVAL2 has no document !
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32F769I-EVAL / document id not found: 4054
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32F769I-EVAL / document id not found: 4070
+2020-10-14 11:29:19,482 [WARN] DbBoards:149 - board STM32F769I-EVAL has no document !
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32F779I-EVAL / document id not found: 4055
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32F779I-EVAL / document id not found: 4062
+2020-10-14 11:29:19,482 [WARN] DbBoards:149 - board STM32F779I-EVAL has no document !
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32L476G-EVAL / document id not found: 3750
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32L476G-EVAL / document id not found: 3826
+2020-10-14 11:29:19,482 [WARN] DbBoards:149 - board STM32L476G-EVAL has no document !
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32469I-EVAL / document id not found: 3906
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32469I-EVAL / document id not found: 3909
+2020-10-14 11:29:19,482 [WARN] DbBoards:149 - board STM32469I-EVAL has no document !
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32479I-EVAL / document id not found: 3905
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32479I-EVAL / document id not found: 3910
+2020-10-14 11:29:19,482 [WARN] DbBoards:149 - board STM32479I-EVAL has no document !
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32L073Z-EVAL / document id not found: 3771
+2020-10-14 11:29:19,482 [WARN] DbBoards:145 - board STM32L073Z-EVAL / document id not found: 3999
+2020-10-14 11:29:19,482 [WARN] DbBoards:149 - board STM32L073Z-EVAL has no document !
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H743I-EVAL / document id not found: 4206
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H743I-EVAL / document id not found: 4210
+2020-10-14 11:29:19,498 [WARN] DbBoards:149 - board STM32H743I-EVAL has no document !
+2020-10-14 11:29:19,498 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H753I-EVAL / document id not found: 4206
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H753I-EVAL / document id not found: 4210
+2020-10-14 11:29:19,498 [WARN] DbBoards:149 - board STM32H753I-EVAL has no document !
+2020-10-14 11:29:19,498 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32G081B-EVAL / document id not found: 4343
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32G081B-EVAL / document id not found: 4363
+2020-10-14 11:29:19,498 [WARN] DbBoards:149 - board STM32G081B-EVAL has no document !
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H747I-EVAL / document id not found: 4460
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H747I-EVAL / document id not found: 4462
+2020-10-14 11:29:19,498 [WARN] DbBoards:149 - board STM32H747I-EVAL has no document !
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H757I-EVAL / document id not found: 4460
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32H757I-EVAL / document id not found: 4462
+2020-10-14 11:29:19,498 [WARN] DbBoards:149 - board STM32H757I-EVAL has no document !
+2020-10-14 11:29:19,498 [WARN] DbBoards:145 - board STM32L4R9I-EVAL / document id not found: 4223
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32L4R9I-EVAL / document id not found: 4239
+2020-10-14 11:29:19,513 [WARN] DbBoards:149 - board STM32L4R9I-EVAL has no document !
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32MP157C-EV1 / document id not found: 4399
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32MP157C-EV1 / document id not found: 4437
+2020-10-14 11:29:19,513 [WARN] DbBoards:149 - board STM32MP157C-EV1 has no document !
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32MP157A-EV1 / document id not found: 4399
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32MP157A-EV1 / document id not found: 4437
+2020-10-14 11:29:19,513 [WARN] DbBoards:149 - board STM32MP157A-EV1 has no document !
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32G474E-EVAL / document id not found: 4397
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32G474E-EVAL / document id not found: 4432
+2020-10-14 11:29:19,513 [WARN] DbBoards:149 - board STM32G474E-EVAL has no document !
+2020-10-14 11:29:19,513 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32G484E-EVAL / document id not found: 4397
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board STM32G484E-EVAL / document id not found: 4432
+2020-10-14 11:29:19,513 [WARN] DbBoards:149 - board STM32G484E-EVAL has no document !
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board NUCLEO-L552ZE-Q / document id not found: 4166
+2020-10-14 11:29:19,513 [WARN] DbBoards:145 - board NUCLEO-L552ZE-Q / document id not found: 4505
+2020-10-14 11:29:19,513 [WARN] DbBoards:149 - board NUCLEO-L552ZE-Q has no document !
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board STM32F7308-DK / document id not found: 4079
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board STM32F7308-DK / document id not found: 4347
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board STM32F7308-DK / document id not found: 4348
+2020-10-14 11:29:19,529 [WARN] DbBoards:149 - board STM32F7308-DK has no document !
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board B-G474E-DPOW1 / document id not found: 4463
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board B-G474E-DPOW1 / document id not found: 4471
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board B-G474E-DPOW1 / document id not found: 4480
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board B-G474E-DPOW1 / document id not found: 4624
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board B-G474E-DPOW1 / document id not found: 4625
+2020-10-14 11:29:19,529 [WARN] DbBoards:149 - board B-G474E-DPOW1 has no document !
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board NUCLEO-H7A3ZI-Q / document id not found: 4166
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board NUCLEO-H7A3ZI-Q / document id not found: 4419
+2020-10-14 11:29:19,529 [WARN] DbBoards:149 - board NUCLEO-H7A3ZI-Q has no document !
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board NUCLEO-L4P5ZG / document id not found: 4165
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board NUCLEO-L4P5ZG / document id not found: 4166
+2020-10-14 11:29:19,529 [WARN] DbBoards:149 - board NUCLEO-L4P5ZG has no document !
+2020-10-14 11:29:19,529 [WARN] DbBoards:145 - board STM32H7B3I-DK / document id not found: 2958
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32H7B3I-DK / document id not found: 4503
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32H7B3I-DK / document id not found: 4504
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32H7B3I-DK / document id not found: 4598
+2020-10-14 11:29:19,544 [WARN] DbBoards:149 - board STM32H7B3I-DK has no document !
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32H7B3I-EVAL / document id not found: 4529
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32H7B3I-EVAL / document id not found: 4596
+2020-10-14 11:29:19,544 [WARN] DbBoards:149 - board STM32H7B3I-EVAL has no document !
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32L552E-EV / document id not found: 4493
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32L552E-EV / document id not found: 4509
+2020-10-14 11:29:19,544 [WARN] DbBoards:149 - board STM32L552E-EV has no document !
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board NUCLEO-F439ZI / document id not found: 3989
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board NUCLEO-F439ZI / document id not found: 4166
+2020-10-14 11:29:19,544 [WARN] DbBoards:149 - board NUCLEO-F439ZI has no document !
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32L562E-DK / document id not found: 4510
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32L562E-DK / document id not found: 4514
+2020-10-14 11:29:19,544 [WARN] DbBoards:145 - board STM32L562E-DK / document id not found: 4598
+2020-10-14 11:29:19,544 [WARN] DbBoards:149 - board STM32L562E-DK has no document !
+2020-10-14 11:29:19,544 [WARN] DbBoards:130 - board NUCLEO-WB35CE has no document id list !
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board NUCLEO-H723ZG / document id not found: 4166
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board NUCLEO-H723ZG / document id not found: 4418
+2020-10-14 11:29:19,560 [WARN] DbBoards:149 - board NUCLEO-H723ZG has no document !
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board STM32L4P5G-DK / document id not found: 4526
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board STM32L4P5G-DK / document id not found: 4527
+2020-10-14 11:29:19,560 [WARN] DbBoards:149 - board STM32L4P5G-DK has no document !
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board B-L4S5I-IOT01A / document id not found: 4612
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board B-L4S5I-IOT01A / document id not found: 4613
+2020-10-14 11:29:19,560 [WARN] DbBoards:149 - board B-L4S5I-IOT01A has no document !
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board STM32H735G-DK / document id not found: 4608
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board STM32H735G-DK / document id not found: 4611
+2020-10-14 11:29:19,560 [WARN] DbBoards:145 - board STM32H735G-DK / document id not found: 4653
+2020-10-14 11:29:19,560 [WARN] DbBoards:149 - board STM32H735G-DK has no document !
+2020-10-14 11:29:19,810 [ERROR] DbBoards:185 - Image file not found for board P-NUCLEO-WB55: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2020-10-14 11:29:19,951 [ERROR] DbBoards:185 - Image file not found for board STM32G0316-DISCO: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2020-10-14 11:29:20,185 [ERROR] DbBoards:185 - Image file not found for board B-G474E-DPOW1: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/B-G474E-DPOW1_small.jpg
+2020-10-14 11:29:20,185 [ERROR] DbBoards:188 - No image file URL for board STM32H7B3I-DK
+2020-10-14 11:29:20,201 [ERROR] DbBoards:188 - No image file URL for board STM32H7B3I-EVAL
+2020-10-14 11:29:20,201 [ERROR] DbBoards:185 - Image file not found for board STM32L552E-EV: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32l552e-ev_small.jpg
+2020-10-14 11:29:20,201 [ERROR] DbBoards:185 - Image file not found for board STM32L562E-DK: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32l562e-dk_small.jpg
+2020-10-14 11:29:20,201 [ERROR] DbBoards:188 - No image file URL for board NUCLEO-WB35CE
+2020-10-14 11:29:20,201 [ERROR] DbBoards:185 - Image file not found for board STM32L4P5G-DK: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32l4p5g-dk_small.jpg
+2020-10-14 11:29:20,201 [ERROR] DbBoards:185 - Image file not found for board B-L4S5I-IOT01A: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2020-10-14 11:29:20,201 [ERROR] DbBoards:185 - Image file not found for board STM32H735G-DK: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2020-10-14 11:29:20,201 [INFO] ApiDb:147 - User favorites file not found: C:\Users\t7boitti/.stm32cubeide/favorites.boards.txt
+2020-10-14 11:29:20,201 [INFO] DbBoards:202 - Set 0 / 0 favorites Boards
+2020-10-14 11:29:20,216 [INFO] DbBoardsDocs:55 - Found 189 boards documents
+2020-10-14 11:29:20,216 [INFO] ApiDb:186 - Save user favorites file C:\Users\t7boitti/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-10-14 11:29:20,216 [INFO] ApiDb:191 - User favorites Boards=[]
+2020-10-14 11:29:20,216 [INFO] DbBoardsPdsc:92 - Found 18 items
+2020-10-14 11:29:20,216 [INFO] DbBoardsPdsc:92 - Found 9 items
+2020-10-14 11:29:20,232 [INFO] DbBoardsPdsc:92 - Found 27 items
+2020-10-14 11:29:20,232 [INFO] DbBoardsPdsc:92 - Found 1 items
+2020-10-14 11:29:20,232 [INFO] DbBoardsPdsc:92 - Found 35 items
+2020-10-14 11:29:20,232 [INFO] DbBoardsPdsc:92 - Found 37 items
+2020-10-14 11:29:20,247 [INFO] DbBoardsJson:79 - JSON generation date=Mon Sep 28 15:22:09 CEST 2020 (1601299329)
+2020-10-14 11:29:20,247 [INFO] DbBoards:120 - Found 142 boards (126 are supported by CubeMX)
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32F7308-DISCO has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:130 - board NUCLEO-WB35CE has no document id list !
+2020-10-14 11:29:20,263 [WARN] DbBoards:145 - board STM32H735G-DK / document id not found: 4653
+2020-10-14 11:29:20,435 [ERROR] DbBoards:185 - Image file not found for board P-NUCLEO-WB55: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/p-nucleo-wb55_small.jpg
+2020-10-14 11:29:20,529 [ERROR] DbBoards:185 - Image file not found for board STM32G0316-DISCO: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32g0316discovery_small.jpg
+2020-10-14 11:29:20,672 [ERROR] DbBoards:185 - Image file not found for board B-G474E-DPOW1: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/B-G474E-DPOW1_small.jpg
+2020-10-14 11:29:20,672 [ERROR] DbBoards:188 - No image file URL for board STM32H7B3I-DK
+2020-10-14 11:29:20,672 [ERROR] DbBoards:188 - No image file URL for board STM32H7B3I-EVAL
+2020-10-14 11:29:20,672 [ERROR] DbBoards:185 - Image file not found for board STM32L552E-EV: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32l552e-ev_small.jpg
+2020-10-14 11:29:20,687 [ERROR] DbBoards:185 - Image file not found for board STM32L562E-DK: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32l562e-dk_small.jpg
+2020-10-14 11:29:20,687 [ERROR] DbBoards:188 - No image file URL for board NUCLEO-WB35CE
+2020-10-14 11:29:20,687 [ERROR] DbBoards:185 - Image file not found for board STM32L4P5G-DK: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/stm32l4p5g-dk_small.jpg
+2020-10-14 11:29:20,687 [ERROR] DbBoards:185 - Image file not found for board B-L4S5I-IOT01A: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/B-L4S5I-IOT01A_small.jpg
+2020-10-14 11:29:20,687 [ERROR] DbBoards:185 - Image file not found for board STM32H735G-DK: C:\ST\STM32CubeIDE_1.0.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_1.0.0.201906050926\\db\/plugins/mcufinder/images/boards/STM32H735G_DK_small.jpg
+2020-10-14 11:29:20,687 [INFO] ApiDb:158 - Load user favorites file C:\Users\t7boitti/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2020-10-14 11:29:20,687 [INFO] ApiDb:163 - User favorites Boards=[]
+2020-10-14 11:29:20,687 [INFO] DbBoards:202 - Set 0 / 0 favorites Boards
+2020-10-14 11:29:20,845 [INFO] LoadUrlFilesThread:147 - End of LoadServerUrlFiles without Thread
+2020-10-14 11:29:20,845 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2020-10-14 11:29:20,970 [INFO] LoadUrlFilesThread:147 - End of LoadServerUrlFiles without Thread
+2020-10-14 11:29:20,970 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/t7boitti/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2020-10-14 11:29:20,985 [INFO] BoardFilterPanel:212 - Update 0 favorites Boards
+2020-10-14 11:29:21,930 [INFO] CrossSelectorPresenter:1239 - Cross Selector saved comparison directory: C:\Users\t7boitti\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
