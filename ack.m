@@ -1,11 +1,18 @@
 function ack()
 
 
+
+filename = 'angle.xls';
+
+th = xlsread(filename,'B:B');
+
+
 fclose(instrfind);
 delete(instrfind);
 
-state=1
-g = serial('COM3','baudrate',115200);
+
+state=1;
+g = serial('COM9','baudrate',115200);
 fopen(g);
 
 
@@ -19,7 +26,8 @@ pause=1;
 s=220;
 y1= zeros(1);
 y2= zeros(1);
-
+y3= zeros(1);
+y4= zeros(1);
 
 
 
@@ -60,11 +68,13 @@ set(btn_rst, 'position',[200 10 100 20]);
        disp('Reset plot');
        y1= zeros(1);
        y2= zeros(1);
+       y3= zeros(1);
+       y4= zeros(1);
        i=1;fclose(instrfind);
        delete(instrfind);
 
        state=1
-       g = serial('COM3','baudrate',115200);
+       g = serial('COM9','baudrate',115200);
        fopen(g);
     end
 
@@ -93,41 +103,53 @@ while l<s+3
             title('Vitesse encodeur')  
             grid on;    
         end
-    else
+        state = 2;
+    elseif state == 2
         %potar
         y2(i) = str2double(varc);
-        y2(i) = ((y2(i)-180000)/180000)*(pi/2)-pi/2;
+        y2(i) = ((y2(i)-180000)/180000)*(pi/4);
         x=1:1:length(y2);
 
         subplot(412);
         if pause
-            plot(x,y2);
-            title('Position Potar')
-            grid on;
-        end
-        subplot(413);
-        
-        %si pause off
-        if pause
-            plot(x,0);
-            title('Acceleration')
+            au=1:1:length(th);
+            plot(x, y2, au, (th/90)*(pi/4));
+            title('Position Théorique (vert) et Potar (bleu)')
             grid on;
         end
         %position 
-        a = cos( y2(i));
-        b = sin( y2(i));
+        a = cos( y2(i)*2-(pi/2));
+        b = sin( y2(i)*2-(pi/2));
         subplot(414);
         if pause
             p = plot(a, b, 'o', [0,a],[0,b]);
             title('Position pendule')
         end
-        axis([-10 10 -1.5 1.5]);
-        i=i+1;    
+        axis([-10 10 -1.5 1.5]); 
+        state = 3;
+    elseif state == 3
+        %encodeur
+        y3(i) = (str2double(varc)/4096)*10-5;
+        x=1:1:length(y3);
+    
+        state = 4;
+    else 
+        %y
+        y4(i) = (str2double(varc)/4096)*10-5;
+        x=1:1:length(y4);
+        subplot(413);
+        
+        %si pause off
+        if pause
+            plot(x,y4, x, y3);
+            title('Acceleration')
+            grid on;
+        end
+        
+        state = 1;
+        i=i+1;
     end
-    
-    state= -state;
     drawnow;
-    
 end
 
 fclose(g);
