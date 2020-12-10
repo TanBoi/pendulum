@@ -24,7 +24,10 @@
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
+<<<<<<< HEAD
 extern DMA_HandleTypeDef hdma_adc1;
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
@@ -114,6 +117,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
+<<<<<<< HEAD
     /* ADC1 DMA Init */
     /* ADC1 Init */
     hdma_adc1.Instance = DMA2_Stream0;
@@ -133,6 +137,8 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
 
     __HAL_LINKDMA(hadc,DMA_Handle,hdma_adc1);
 
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
   /* USER CODE BEGIN ADC1_MspInit 1 */
 
   /* USER CODE END ADC1_MspInit 1 */
@@ -165,8 +171,11 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* hadc)
 
     HAL_GPIO_DeInit(GPIOA, GPIO_PIN_0|GPIO_PIN_1);
 
+<<<<<<< HEAD
     /* ADC1 DMA DeInit */
     HAL_DMA_DeInit(hadc->DMA_Handle);
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
   /* USER CODE BEGIN ADC1_MspDeInit 1 */
 
   /* USER CODE END ADC1_MspDeInit 1 */
@@ -211,6 +220,7 @@ void HAL_TIM_Encoder_MspInit(TIM_HandleTypeDef* htim_encoder)
 }
 
 /**
+<<<<<<< HEAD
 * @brief TIM_Base MSP Initialization
 * This function configures the hardware resources used in this example
 * @param htim_base: TIM_Base handle pointer
@@ -236,6 +246,8 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
 }
 
 /**
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 * @brief TIM_Encoder MSP De-Initialization
 * This function freeze the hardware resources used in this example
 * @param htim_encoder: TIM_Encoder handle pointer
@@ -265,6 +277,7 @@ void HAL_TIM_Encoder_MspDeInit(TIM_HandleTypeDef* htim_encoder)
 }
 
 /**
+<<<<<<< HEAD
 * @brief TIM_Base MSP De-Initialization
 * This function freeze the hardware resources used in this example
 * @param htim_base: TIM_Base handle pointer
@@ -290,6 +303,8 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
 }
 
 /**
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 * @brief UART MSP Initialization
 * This function configures the hardware resources used in this example
 * @param huart: UART handle pointer

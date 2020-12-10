@@ -37,8 +37,13 @@ pendule.list \
 all: pendule.elf secondary-outputs
 
 # Tool invocations
+<<<<<<< HEAD
 pendule.elf: $(OBJS) $(USER_OBJS) U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld
 	arm-none-eabi-gcc -o "pendule.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+=======
+pendule.elf: $(OBJS) $(USER_OBJS) U:\s7\pendule\STM32F411RETX_FLASH.ld
+	arm-none-eabi-gcc -o "pendule.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"U:\s7\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 	@echo 'Finished building target: $@'
 	@echo ' '
 

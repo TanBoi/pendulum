@@ -56,8 +56,11 @@ void SVC_Handler(void);
 void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
+<<<<<<< HEAD
 void TIM4_IRQHandler(void);
 void DMA2_Stream0_IRQHandler(void);
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */

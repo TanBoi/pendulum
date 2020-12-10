@@ -180,5 +180,8 @@
 			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
 		</scannerConfigBuildInfo>
 	</storageModule>
+<<<<<<< HEAD
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 </cproject>

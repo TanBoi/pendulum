@@ -1,7 +1,13 @@
 [PreviousGenFiles]
+<<<<<<< HEAD
 HeaderPath=U:/s7/Pendulum/pendule/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
 SourcePath=U:/s7/Pendulum/pendule/Src
+=======
+HeaderPath=U:/s7/pendule/Inc
+HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
+SourcePath=U:/s7/pendule/Src
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 main.c:93:5:main	88	static
 main.c:283:6:SystemClock_Config	88	static
 main.c:327:13:MX_ADC1_Init	24	static
@@ -9,3 +10,13 @@ main.c:536:13:MX_GPIO_Init	16	static
 main.c:546:6:debugPrint	24	static
 main.c:553:6:HAL_TIM_PeriodElapsedCallback	16	static
 main.c:575:6:Error_Handler	4	static
+=======
+main.c:74:5:main	152	static
+main.c:235:6:SystemClock_Config	88	static
+main.c:279:13:MX_ADC1_Init	8	static
+main.c:318:13:MX_TIM1_Init	56	static
+main.c:368:13:MX_USART2_UART_Init	8	static
+main.c:401:13:MX_GPIO_Init	16	static
+main.c:411:6:debugPrint	24	static
+main.c:423:6:Error_Handler	4	static
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144

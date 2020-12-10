@@ -1,6 +1,7 @@
 function ack()
 
 
+<<<<<<< HEAD
 
 filename = 'angle.xls';
 
@@ -13,6 +14,13 @@ delete(instrfind);
 
 state=1;
 g = serial('COM9','baudrate',115200);
+=======
+fclose(instrfind);
+delete(instrfind);
+
+state=1
+g = serial('COM3','baudrate',115200);
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 fopen(g);
 
 
@@ -26,8 +34,12 @@ pause=1;
 s=220;
 y1= zeros(1);
 y2= zeros(1);
+<<<<<<< HEAD
 y3= zeros(1);
 y4= zeros(1);
+=======
+
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 
 
 
@@ -68,13 +80,20 @@ set(btn_rst, 'position',[200 10 100 20]);
        disp('Reset plot');
        y1= zeros(1);
        y2= zeros(1);
+<<<<<<< HEAD
        y3= zeros(1);
        y4= zeros(1);
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
        i=1;fclose(instrfind);
        delete(instrfind);
 
        state=1
+<<<<<<< HEAD
        g = serial('COM9','baudrate',115200);
+=======
+       g = serial('COM3','baudrate',115200);
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
        fopen(g);
     end
 
@@ -103,15 +122,23 @@ while l<s+3
             title('Vitesse encodeur')  
             grid on;    
         end
+<<<<<<< HEAD
         state = 2;
     elseif state == 2
         %potar
         y2(i) = str2double(varc);
         y2(i) = ((y2(i)-180000)/180000)*(pi/4);
+=======
+    else
+        %potar
+        y2(i) = str2double(varc);
+        y2(i) = ((y2(i)-180000)/180000)*(pi/2)-pi/2;
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
         x=1:1:length(y2);
 
         subplot(412);
         if pause
+<<<<<<< HEAD
             au=1:1:length(th);
             plot(x, y2, au, (th/90)*(pi/4));
             title('Position Théorique (vert) et Potar (bleu)')
@@ -137,10 +164,17 @@ while l<s+3
         %y
         y4(i) = (str2double(varc)/4096)*10-5;
         x=1:1:length(y4);
+=======
+            plot(x,y2);
+            title('Position Potar')
+            grid on;
+        end
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
         subplot(413);
         
         %si pause off
         if pause
+<<<<<<< HEAD
             plot(x,y4, x, y3);
             title('Acceleration')
             grid on;
@@ -150,6 +184,27 @@ while l<s+3
         i=i+1;
     end
     drawnow;
+=======
+            plot(x,0);
+            title('Acceleration')
+            grid on;
+        end
+        %position 
+        a = cos( y2(i));
+        b = sin( y2(i));
+        subplot(414);
+        if pause
+            p = plot(a, b, 'o', [0,a],[0,b]);
+            title('Position pendule')
+        end
+        axis([-10 10 -1.5 1.5]);
+        i=i+1;    
+    end
+    
+    state= -state;
+    drawnow;
+    
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 end
 
 fclose(g);

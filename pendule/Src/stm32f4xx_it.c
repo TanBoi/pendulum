@@ -56,8 +56,12 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
+<<<<<<< HEAD
 extern DMA_HandleTypeDef hdma_adc1;
 extern TIM_HandleTypeDef htim4;
+=======
+
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -198,6 +202,7 @@ void SysTick_Handler(void)
 /* please refer to the startup file (startup_stm32f4xx.s).                    */
 /******************************************************************************/
 
+<<<<<<< HEAD
 /**
   * @brief This function handles TIM4 global interrupt.
   */
@@ -226,6 +231,8 @@ void DMA2_Stream0_IRQHandler(void)
   /* USER CODE END DMA2_Stream0_IRQn 1 */
 }
 
+=======
+>>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */

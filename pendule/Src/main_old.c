@@ -43,13 +43,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
-<<<<<<< HEAD
-DMA_HandleTypeDef hdma_adc1;
-=======
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 
 TIM_HandleTypeDef htim1;
-TIM_HandleTypeDef htim4;
 
 UART_HandleTypeDef huart2;
 
@@ -60,40 +55,16 @@ UART_HandleTypeDef huart2;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-<<<<<<< HEAD
-static void MX_DMA_Init(void);
-=======
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 static void MX_TIM1_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_ADC1_Init(void);
-static void MX_TIM4_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int potardt1=0;
-int potardt2=0;
 
-int vitesse=0;
-int vitesseP=0;
-int count=0;
-int sens=0;
-int angledt1=0;
-int angledt2=0;
-double potar=0;
-<<<<<<< HEAD
-int x=0;
-int y=0;
-char accelx[12];
-char accely[12];
-=======
-
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
-char vitesse2[12];
-char vitesseP2[12];
 /* USER CODE END 0 */
 
 /**
@@ -103,14 +74,16 @@ char vitesseP2[12];
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-//double potar=0;
+double potar=0;
 char potar2[12];
 char sens2[12];
 char angle1[12];
 char angle2[12];
 char count2[12];
+char vitesse2[12];
+char vitesseP2[12];
 
-/*int potardt1=0;
+int potardt1=0;
 int potardt2=0;
 
 int vitesse=0;
@@ -118,13 +91,9 @@ int vitesseP=0;
 int count=0;
 int sens=0;
 int angledt1=0;
-int angledt2=0;*/
+int angledt2=0;
 
-<<<<<<< HEAD
 uint16_t adc_buf[3];
-=======
-int adc_buf[3];
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 uint16_t adc_bufx=0;
   /* USER CODE END 1 */
   
@@ -147,17 +116,11 @@ uint16_t adc_bufx=0;
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-<<<<<<< HEAD
-  MX_DMA_Init();
-=======
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
   MX_TIM1_Init();
   MX_USART2_UART_Init();
   MX_ADC1_Init();
-  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Encoder_Start(&htim1,TIM_CHANNEL_ALL);
-  HAL_TIM_Base_Start_IT(&htim4);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -177,11 +140,10 @@ uint16_t adc_bufx=0;
 	  	  	  	  Port sÃ©rie : putty et print();
 	  	  	  	  */
 
-	  //HAL_TIM_Encoder_Start(&htim1,TIM_CHANNEL_ALL);
+	  HAL_TIM_Encoder_Start(&htim1,TIM_CHANNEL_ALL);
 
 
 	  	  	  	  //Calcul encodeur
-	  /*
 	  	  	  	  count = TIM1->CNT;
 	  	  	  	  sens = __HAL_TIM_DIRECTION_STATUS(&htim1);
 	  	  	  	  //angle precedent en radians
@@ -189,7 +151,6 @@ uint16_t adc_bufx=0;
 	  	  	  	  angledt1=count*360/8192-180;
 
 	  	  	  	  //Calcul avec potar
-
 	  	  	  	  HAL_ADC_Start(&hadc1);
 	  	  	 	  HAL_ADC_PollForConversion(&hadc1, 100);
 	  	  	 	  potar=HAL_ADC_GetValue(&hadc1);
@@ -210,59 +171,20 @@ uint16_t adc_bufx=0;
 	  	  	  	  HAL_ADC_PollForConversion(&hadc1, 100);
 	  	  	  	  potar=HAL_ADC_GetValue(&hadc1);
 	  	  	  	  potardt2=(int)potar*100;
-	  	  	  	  //*2*PI/(4096)+PI/2; */
+	  	  	  	  //*2*PI/(4096)+PI/2;
 
 	  	  	      //Envoi vitesse encodeur + potar
+	  	  	      if(sens == __HAL_TIM_DIRECTION_STATUS(&htim1))
+	  	  	      {
+	  	  	      vitesse=(angledt2-angledt1)*50;
 	  	  	      //vitesseP=(potardt2-potardt1)*20;
-	  	  	      //vitesseP=potardt2;
-
-
-	  	  	  	  //potardt2 = potardt1;
-	  	  	  	  //HAL_ADC_Start_DMA(&hadc1,(uint32_t*) adc_buf, 3);
-<<<<<<< HEAD
-	  	  	  	  HAL_ADC_Start_DMA(&hadc1,(uint32_t*) adc_buf, 3);
-
-	  	  	  	  x=(int)adc_buf[0];
-	  	  	  	  y=(int)adc_buf[1];
-	  	  	  	  potar=adc_buf[2];
-	  	  	  	  //x=((x/4096)*10)-5;
-	  	  	  	  //y=((y/4096)*10)-5;
-	  	  	  	  //HAL_ADC_Start(&hadc1);
-	  	  	  	  //HAL_ADC_PollForConversion(&hadc1, 100);
-	  	  	  	  //potar=HAL_ADC_GetValue(&hadc1);
-=======
-
-	  	  	  	  HAL_ADC_Start(&hadc1);
-	  	  	  	  HAL_ADC_PollForConversion(&hadc1, 100);
-	  	  	  	  potar=HAL_ADC_GetValue(&hadc1);
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
-
-	  	  	  	  potardt1=(int)potar*100;
-
-	  	  	  	  //if(sens == __HAL_TIM_DIRECTION_STATUS(&htim1))
-	  	  	  	  // {
-	  	  		  vitesse=(angledt2-angledt1);
-	  	  	      //}
-
-
+	  	  	      vitesseP=potardt2;
 	  	  	  	  sprintf(vitesse2, "%d",vitesse);
-<<<<<<< HEAD
-	  	  	  	  sprintf(accelx, "%d",x);
-	  	  	  	  sprintf(accely, "%d",y);
-=======
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
-	  	  	  	  sprintf(vitesseP2, "%d",potardt1);
+	  	  	  	  sprintf(vitesseP2, "%d",vitesseP);
 
 	  	  	      debugPrint(&huart2, vitesse2);
 	  	  	      debugPrint(&huart2, vitesseP2);
-<<<<<<< HEAD
-	  	  	      debugPrint(&huart2, accelx);
-	  	  	      debugPrint(&huart2, accely);
-=======
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
-
-
-	  	  	  	  HAL_Delay(50);
+	  	  	      }
 
 	  	  	      //Aide au debuggage par liaison serie
 	  	  	  	  //sprintf(count2, "%d", count);
@@ -298,11 +220,7 @@ uint16_t adc_bufx=0;
 	  	  	      HAL_ADC_Start(&hadc1);
 	  	  		  HAL_ADC_PollForConversion(&hadc1,5);
 	  	  		  adc_3 = HAL_ADC_GetValue(&hadc1);
-<<<<<<< HEAD
-
-=======
 	  	  	      ///HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_buf[0], 100);
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 	  	  	      ///sprintf(adc_bufx, "%d",adc_buf[0]);
 	  	  	  	  ///debugPrint(&huart2, adc_bufx);
 */
@@ -365,69 +283,24 @@ static void MX_ADC1_Init(void)
 
   /* USER CODE END ADC1_Init 0 */
 
-  ADC_ChannelConfTypeDef sConfig = {0};
-
   /* USER CODE BEGIN ADC1_Init 1 */
 
   /* USER CODE END ADC1_Init 1 */
   /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion) 
   */
   hadc1.Instance = ADC1;
-<<<<<<< HEAD
-  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV8;
-  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
-  hadc1.Init.ScanConvMode = ENABLE;
-  hadc1.Init.ContinuousConvMode = ENABLE;
-=======
   hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
   hadc1.Init.Resolution = ADC_RESOLUTION_12B;
   hadc1.Init.ScanConvMode = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
   hadc1.Init.DiscontinuousConvMode = DISABLE;
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-<<<<<<< HEAD
-  hadc1.Init.NbrOfConversion = 3;
-  hadc1.Init.DMAContinuousRequests = ENABLE;
-=======
   hadc1.Init.NbrOfConversion = 1;
   hadc1.Init.DMAContinuousRequests = DISABLE;
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
-  */
-<<<<<<< HEAD
-  sConfig.Channel = ADC_CHANNEL_0;
-  sConfig.Rank = 1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_480CYCLES;
-  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
-  */
-  sConfig.Channel = ADC_CHANNEL_1;
-  sConfig.Rank = 2;
-  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time. 
-  */
-  sConfig.Channel = ADC_CHANNEL_10;
-  sConfig.Rank = 3;
-=======
-  sConfig.Channel = ADC_CHANNEL_10;
-  sConfig.Rank = 1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
-  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
   }
@@ -488,51 +361,6 @@ static void MX_TIM1_Init(void)
 }
 
 /**
-  * @brief TIM4 Initialization Function
-  * @param None
-  * @retval None
-  */
-static void MX_TIM4_Init(void)
-{
-
-  /* USER CODE BEGIN TIM4_Init 0 */
-
-  /* USER CODE END TIM4_Init 0 */
-
-  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
-  TIM_MasterConfigTypeDef sMasterConfig = {0};
-
-  /* USER CODE BEGIN TIM4_Init 1 */
-
-  /* USER CODE END TIM4_Init 1 */
-  htim4.Instance = TIM4;
-  htim4.Init.Prescaler = 5000-1;
-  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim4.Init.Period = 1000-1;
-  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
-  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
-  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
-  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
-  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
-  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN TIM4_Init 2 */
-
-  /* USER CODE END TIM4_Init 2 */
-
-}
-
-/**
   * @brief USART2 Initialization Function
   * @param None
   * @retval None
@@ -565,24 +393,6 @@ static void MX_USART2_UART_Init(void)
 
 }
 
-<<<<<<< HEAD
-/** 
-  * Enable DMA controller clock
-  */
-static void MX_DMA_Init(void) 
-{
-  /* DMA controller clock enable */
-  __HAL_RCC_DMA2_CLK_ENABLE();
-
-  /* DMA interrupt init */
-  /* DMA2_Stream0_IRQn interrupt configuration */
-  HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(DMA2_Stream0_IRQn);
-
-}
-
-=======
->>>>>>> 76eac0c364395acbc584f7f046d2a7a0c3dbe144
 /**
   * @brief GPIO Initialization Function
   * @param None
@@ -602,23 +412,6 @@ void debugPrint(UART_HandleTypeDef *huart, char _out[]){
  HAL_UART_Transmit(huart, (uint8_t *) _out, strlen(_out), 10);
  char newline[2] = "\r\n";
  HAL_UART_Transmit(huart, (uint8_t *) newline, 2, 10);
-}
-
-// Callback: timer has rolled over
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-  // Check which version of the timer triggered this callback and toggle LED
-  if (htim == &htim4 )
-  {
-	  angledt2=angledt1;
-	  count = TIM1->CNT;
-	  sens = __HAL_TIM_DIRECTION_STATUS(&htim1);
-	  //angle precedent en radians
-	  //angledt1=count*2*3.14/8192-3.14;
-	  angledt1=count*360/8192-180;
-  }
-
-
 }
 
 /* USER CODE END 4 */
