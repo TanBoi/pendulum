@@ -1,0 +1,357 @@
+15:36:46 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:178:13: warning: "/*" within comment [-Wcomment]
+            //*2*PI/(4096)+PI/2;
+              
+../Src/main.c:194:14: warning: "/*" within comment [-Wcomment]
+             //*2*PI/(4096)+PI/2; */
+               
+../Src/main.c:222:13: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+             sprintf(vitesse2, "%d",vitesse);
+             ^~~~~~~
+../Src/main.c:222:13: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Src/main.c:222:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Src/main.c:225:14: warning: implicit declaration of function 'debugPrint' [-Wimplicit-function-declaration]
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c:112:10: warning: unused variable 'adc_bufx' [-Wunused-variable]
+ uint16_t adc_bufx=0;
+          ^~~~~~~~
+../Src/main.c:99:6: warning: unused variable 'count2' [-Wunused-variable]
+ char count2[12];
+      ^~~~~~
+../Src/main.c:98:6: warning: unused variable 'angle2' [-Wunused-variable]
+ char angle2[12];
+      ^~~~~~
+../Src/main.c:97:6: warning: unused variable 'angle1' [-Wunused-variable]
+ char angle1[12];
+      ^~~~~~
+../Src/main.c:96:6: warning: unused variable 'sens2' [-Wunused-variable]
+ char sens2[12];
+      ^~~~~
+../Src/main.c:95:6: warning: unused variable 'potar2' [-Wunused-variable]
+ char potar2[12];
+      ^~~~~~
+../Src/main.c: At top level:
+../Src/main.c:540:6: warning: conflicting types for 'debugPrint'
+ void debugPrint(UART_HandleTypeDef *huart, char _out[]){
+      ^~~~~~~~~~
+../Src/main.c:225:14: note: previous implicit declaration of 'debugPrint' was here
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c: In function 'debugPrint':
+../Src/main.c:541:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(huart, (uint8_t *) _out, strlen(_out), 10);
+                                             ^~~~~~
+../Src/main.c:541:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Src/main.c:541:45: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "pendule.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pendule.elf
+ 
+arm-none-eabi-objdump -h -S  pendule.elf  > "pendule.list"
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20028	    120	   2024	  22172	   569c	pendule.elf
+Finished building: default.size.stdout
+ 
+Finished building: pendule.list
+ 
+15:36:57 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20028	    120	   2024	  22172	   569c	pendule.elf
+Finished building: default.size.stdout
+ 
+15:38:33 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:179:13: warning: "/*" within comment [-Wcomment]
+            //*2*PI/(4096)+PI/2;
+              
+../Src/main.c:195:14: warning: "/*" within comment [-Wcomment]
+             //*2*PI/(4096)+PI/2; */
+               
+../Src/main.c:223:13: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+             sprintf(vitesse2, "%d",vitesse);
+             ^~~~~~~
+../Src/main.c:223:13: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Src/main.c:223:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Src/main.c:224:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+             sprintf(accel, "%d",x);
+                             ~^
+                             %f
+../Src/main.c:227:14: warning: implicit declaration of function 'debugPrint' [-Wimplicit-function-declaration]
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c:113:10: warning: unused variable 'adc_bufx' [-Wunused-variable]
+ uint16_t adc_bufx=0;
+          ^~~~~~~~
+../Src/main.c:100:6: warning: unused variable 'count2' [-Wunused-variable]
+ char count2[12];
+      ^~~~~~
+../Src/main.c:99:6: warning: unused variable 'angle2' [-Wunused-variable]
+ char angle2[12];
+      ^~~~~~
+../Src/main.c:98:6: warning: unused variable 'angle1' [-Wunused-variable]
+ char angle1[12];
+      ^~~~~~
+../Src/main.c:97:6: warning: unused variable 'sens2' [-Wunused-variable]
+ char sens2[12];
+      ^~~~~
+../Src/main.c:96:6: warning: unused variable 'potar2' [-Wunused-variable]
+ char potar2[12];
+      ^~~~~~
+../Src/main.c: At top level:
+../Src/main.c:543:6: warning: conflicting types for 'debugPrint'
+ void debugPrint(UART_HandleTypeDef *huart, char _out[]){
+      ^~~~~~~~~~
+../Src/main.c:227:14: note: previous implicit declaration of 'debugPrint' was here
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c: In function 'debugPrint':
+../Src/main.c:544:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(huart, (uint8_t *) _out, strlen(_out), 10);
+                                             ^~~~~~
+../Src/main.c:544:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Src/main.c:544:45: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "pendule.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pendule.elf
+ 
+arm-none-eabi-objdump -h -S  pendule.elf  > "pendule.list"
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2032	  21016	   5218	pendule.elf
+Finished building: default.size.stdout
+ 
+Finished building: pendule.list
+ 
+15:41:33 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2032	  21016	   5218	pendule.elf
+Finished building: default.size.stdout
+ 
+15:41:42 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2032	  21016	   5218	pendule.elf
+Finished building: default.size.stdout
+ 
+15:49:32 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:179:13: warning: "/*" within comment [-Wcomment]
+            //*2*PI/(4096)+PI/2;
+              
+../Src/main.c:195:14: warning: "/*" within comment [-Wcomment]
+             //*2*PI/(4096)+PI/2; */
+               
+../Src/main.c:223:13: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+             sprintf(vitesse2, "%d",vitesse);
+             ^~~~~~~
+../Src/main.c:223:13: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Src/main.c:223:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Src/main.c:224:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'double' [-Wformat=]
+             sprintf(accel, "%d",x);
+                             ~^
+                             %f
+../Src/main.c:227:14: warning: implicit declaration of function 'debugPrint' [-Wimplicit-function-declaration]
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c:113:10: warning: unused variable 'adc_bufx' [-Wunused-variable]
+ uint16_t adc_bufx=0;
+          ^~~~~~~~
+../Src/main.c:100:6: warning: unused variable 'count2' [-Wunused-variable]
+ char count2[12];
+      ^~~~~~
+../Src/main.c:99:6: warning: unused variable 'angle2' [-Wunused-variable]
+ char angle2[12];
+      ^~~~~~
+../Src/main.c:98:6: warning: unused variable 'angle1' [-Wunused-variable]
+ char angle1[12];
+      ^~~~~~
+../Src/main.c:97:6: warning: unused variable 'sens2' [-Wunused-variable]
+ char sens2[12];
+      ^~~~~
+../Src/main.c:96:6: warning: unused variable 'potar2' [-Wunused-variable]
+ char potar2[12];
+      ^~~~~~
+../Src/main.c: At top level:
+../Src/main.c:543:6: warning: conflicting types for 'debugPrint'
+ void debugPrint(UART_HandleTypeDef *huart, char _out[]){
+      ^~~~~~~~~~
+../Src/main.c:227:14: note: previous implicit declaration of 'debugPrint' was here
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c: In function 'debugPrint':
+../Src/main.c:544:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(huart, (uint8_t *) _out, strlen(_out), 10);
+                                             ^~~~~~
+../Src/main.c:544:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Src/main.c:544:45: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "pendule.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pendule.elf
+ 
+arm-none-eabi-objdump -h -S  pendule.elf  > "pendule.list"
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2032	  21016	   5218	pendule.elf
+Finished building: default.size.stdout
+ 
+Finished building: pendule.list
+ 
+15:49:46 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2032	  21016	   5218	pendule.elf
+Finished building: default.size.stdout
+ 
+15:51:43 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:179:13: warning: "/*" within comment [-Wcomment]
+            //*2*PI/(4096)+PI/2;
+              
+../Src/main.c:195:14: warning: "/*" within comment [-Wcomment]
+             //*2*PI/(4096)+PI/2; */
+               
+../Src/main.c:223:13: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+             sprintf(vitesse2, "%d",vitesse);
+             ^~~~~~~
+../Src/main.c:223:13: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Src/main.c:223:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Src/main.c:227:14: warning: implicit declaration of function 'debugPrint' [-Wimplicit-function-declaration]
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c:113:10: warning: unused variable 'adc_bufx' [-Wunused-variable]
+ uint16_t adc_bufx=0;
+          ^~~~~~~~
+../Src/main.c:100:6: warning: unused variable 'count2' [-Wunused-variable]
+ char count2[12];
+      ^~~~~~
+../Src/main.c:99:6: warning: unused variable 'angle2' [-Wunused-variable]
+ char angle2[12];
+      ^~~~~~
+../Src/main.c:98:6: warning: unused variable 'angle1' [-Wunused-variable]
+ char angle1[12];
+      ^~~~~~
+../Src/main.c:97:6: warning: unused variable 'sens2' [-Wunused-variable]
+ char sens2[12];
+      ^~~~~
+../Src/main.c:96:6: warning: unused variable 'potar2' [-Wunused-variable]
+ char potar2[12];
+      ^~~~~~
+../Src/main.c: At top level:
+../Src/main.c:543:6: warning: conflicting types for 'debugPrint'
+ void debugPrint(UART_HandleTypeDef *huart, char _out[]){
+      ^~~~~~~~~~
+../Src/main.c:227:14: note: previous implicit declaration of 'debugPrint' was here
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c: In function 'debugPrint':
+../Src/main.c:544:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(huart, (uint8_t *) _out, strlen(_out), 10);
+                                             ^~~~~~
+../Src/main.c:544:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Src/main.c:544:45: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "pendule.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pendule.elf
+ 
+arm-none-eabi-objdump -h -S  pendule.elf  > "pendule.list"
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18840	    120	   2024	  20984	   51f8	pendule.elf
+Finished building: default.size.stdout
+ 
+Finished building: pendule.list
+ 
+15:51:56 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18840	    120	   2024	  20984	   51f8	pendule.elf
+Finished building: default.size.stdout
+ 
+16:00:48 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F411xE -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:180:13: warning: "/*" within comment [-Wcomment]
+            //*2*PI/(4096)+PI/2;
+              
+../Src/main.c:196:14: warning: "/*" within comment [-Wcomment]
+             //*2*PI/(4096)+PI/2; */
+               
+../Src/main.c:224:13: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+             sprintf(vitesse2, "%d",vitesse);
+             ^~~~~~~
+../Src/main.c:224:13: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Src/main.c:224:13: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Src/main.c:229:14: warning: implicit declaration of function 'debugPrint' [-Wimplicit-function-declaration]
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c:114:10: warning: unused variable 'adc_bufx' [-Wunused-variable]
+ uint16_t adc_bufx=0;
+          ^~~~~~~~
+../Src/main.c:101:6: warning: unused variable 'count2' [-Wunused-variable]
+ char count2[12];
+      ^~~~~~
+../Src/main.c:100:6: warning: unused variable 'angle2' [-Wunused-variable]
+ char angle2[12];
+      ^~~~~~
+../Src/main.c:99:6: warning: unused variable 'angle1' [-Wunused-variable]
+ char angle1[12];
+      ^~~~~~
+../Src/main.c:98:6: warning: unused variable 'sens2' [-Wunused-variable]
+ char sens2[12];
+      ^~~~~
+../Src/main.c:97:6: warning: unused variable 'potar2' [-Wunused-variable]
+ char potar2[12];
+      ^~~~~~
+../Src/main.c: At top level:
+../Src/main.c:546:6: warning: conflicting types for 'debugPrint'
+ void debugPrint(UART_HandleTypeDef *huart, char _out[]){
+      ^~~~~~~~~~
+../Src/main.c:229:14: note: previous implicit declaration of 'debugPrint' was here
+              debugPrint(&huart2, vitesse2);
+              ^~~~~~~~~~
+../Src/main.c: In function 'debugPrint':
+../Src/main.c:547:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  HAL_UART_Transmit(huart, (uint8_t *) _out, strlen(_out), 10);
+                                             ^~~~~~
+../Src/main.c:547:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Src/main.c:547:45: note: include '<string.h>' or provide a declaration of 'strlen'
+arm-none-eabi-gcc -o "pendule.elf" @"objects.list"   -mcpu=cortex-m4 -T"U:\s7\Pendulum\pendule\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pendule.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: pendule.elf
+ 
+arm-none-eabi-objdump -h -S  pendule.elf  > "pendule.list"
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2040	  21024	   5220	pendule.elf
+Finished building: default.size.stdout
+ 
+Finished building: pendule.list
+ 
+16:01:44 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2040	  21024	   5220	pendule.elf
+Finished building: default.size.stdout
+ 
+16:09:50 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2040	  21024	   5220	pendule.elf
+Finished building: default.size.stdout
+ 

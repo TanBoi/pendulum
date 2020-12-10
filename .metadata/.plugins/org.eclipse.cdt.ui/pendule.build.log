@@ -1,0 +1,10 @@
+16:09:50 **** Incremental Build of configuration Debug for project pendule ****
+make -j6 all 
+arm-none-eabi-size   pendule.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18864	    120	   2040	  21024	   5220	pendule.elf
+Finished building: default.size.stdout
+ 
+
+16:09:56 Build Finished. 0 errors, 0 warnings. (took 5s.607ms)
+
