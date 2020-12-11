@@ -62,15 +62,68 @@
 
           <h1>Potentiomètre</h1>
           <h5>Position</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+
+          <div class="row align-items-center" >
+<div class="col">
+<img src="../img/capteurs/potar.png" style="width: 350px;margin-left: 15%;">
+</div>
+<div class="col" >
+          <pre><code class="language-c">HAL_ADC_Start_DMA(&hadc1,(uint32_t*) adc_buf, 3);
+potar=adc_buf[2];
+
+sprintf(positionP2, "%d",potardt1);
+
+debugPrint(&huart2, positionP2);</code></pre>
+</div>
+</div>
+          <div class="row align-items-center col" style="margin-top:30px;">
+          <p clas="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+</div>
+
 
 					<h1>Encodeur incrémental</h1>
           <h5>Vitesse</h5>
+
+
+          <div class="row align-items-center ">
+            <div class="col">
+<img src="../img/capteurs/encodeur.png" style="width: 350px;margin-left: 15%;">
+</div>
+<div class="col" >
+          <pre><code class="language-c">sprintf(vitesse2, "%d",vitesse);
+sprintf(vitesseP2, "%d",potardt1);
+debugPrint(&huart2, vitesse2);
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{if (htim == &htim4)
+  { angledt2=angledt1;
+    count = TIM1->CNT;
+    sens = __HAL_TIM_DIRECTION_STATUS(&htim1);
+    angledt1=count*360/8192-180;
+  }}</code></pre>
+</div>
+</div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
 
 
           <h1>Accéléromètre</h1>
           <h5>Accélération</h5>
+
+          <div class="row align-items-center" >
+            <div class="col">
+<img src="../img/capteurs/accel.png" style="width: 350px;margin-left: 15%;">          
+</div>
+<div class="col" >
+<pre><code class="language-c">HAL_ADC_Start_DMA(&hadc1,(uint32_t*) adc_buf, 3);
+x=(int)adc_buf[0];
+y=(int)adc_buf[1];
+
+sprintf(accelx, "%d",x);
+sprintf(accely, "%d",y);
+
+debugPrint(&huart2, accelx);
+debugPrint(&huart2, accely);</code></pre>
+</div>
+</div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
 
 				<hr/>
