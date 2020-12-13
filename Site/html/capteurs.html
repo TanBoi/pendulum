@@ -77,7 +77,7 @@ debugPrint(&huart2, positionP2);</code></pre>
 </div>
 </div>
           <div class="row align-items-center col" style="margin-top:30px;">
-          <p clas="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+          <p clas="col">Le potentiomètre nous sert à mesurer la position du pendule, il est fixé au niveau de l’axe de rotation. Il est relié à une entrée analogique de la carte stm32, et sa valeur est récupérée dans le premier élément du tableau adc_buf à l’aide du périphérique ADC (Analog to Digital Converter). Sa valeur, comme celle des autres capteurs est affichée sur le port série afin de pouvoir la récupérer sur Matlab et de tracer les courbes appropriées.</p>
 </div>
 
 
@@ -102,7 +102,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
   }}</code></pre>
 </div>
 </div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+					<p>L’encodeur incrémental, également fixé au niveau de l’axe de rotation du pendule, permet de calculer la vitesse. Grâce aux 2 signaux numériques renvoyés, on est capable de connaitre le sens de rotation du pendule ainsi que sa position. En effectuant ces mesures à intervalles réguliers à l’aide d’une interruption, nous obtenons ainsi la vitesse du pendule.</p>
 
 
           <h1>Accéléromètre</h1>
@@ -124,7 +124,7 @@ debugPrint(&huart2, accelx);
 debugPrint(&huart2, accely);</code></pre>
 </div>
 </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+          <p>L’accéléromètre, accroché à l’extrémité du pendule, permet de récupérer les valeurs d’accélérations. Nous n’utilisons que 2 axes sur les 3 disponibles, car le pendule ne bouge que selon 2 axes. Il est relié à 2 entrées analogiques, et les valeurs sont récupérées au même moment, et de la même manière que pour le potentiomètre, dans les 2 derniers éléments du buffer adc_buf.</p>
 
 				<hr/>
 		</main>
