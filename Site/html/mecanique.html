@@ -67,8 +67,8 @@
 					<h1>Etude mécanique</h1>
 					<p>Dans le but d’atteindre l’objectif de notre projet, nous avons dû réaliser l’étude mécanique de notre système de pendule avec frottements. Pour ce faire, nous avons appliqué le principe fondamental de la dynamique à notre pendule en renseignant une masse m en son extrémité à l cm de l’axe de rotation du pendule.</p>
 					<p> Ceci nous d’obtenir notre équation différentielle du second ordre associée à notre système : 
-					$$ \theta\cdot l^2 \cdot (m + {m_1 \over 4})+
-					l^2 \cdot K_1 \cdot \theta + l \cdot \theta \cdot g \cdot (m + {m_1 \over 2}) = - sign(\theta) \cdot K_2
+					$$ \ddot\theta\cdot l^2 \cdot (m + {m_1 \over 4})+
+					l^2 \cdot K_1 \cdot \dot\theta + l \cdot \theta \cdot g \cdot (m + {m_1 \over 2}) = - sign(\dot\theta) \cdot K_2
 					$$
 				</p>
 </div>
@@ -80,7 +80,7 @@
 
 					<p>
 					Qui a pour solution dans notre cas :
-					$$ \theta(t)=\theta_0 \cdot e^{{-K_1 \over 2 \cdot (m + {m_1 \over 4})}t}\cdot \cos(\sqrt{{4 \cdot g(m+{m_1 \over 2})(m+{m_1 \over 4}) - l \cdot K^{2}_{1} \over 4 \cdot l(m+{m_1 \over 4})^2}}t) - sign(\theta) \cdot {K_2 \over l \cdot g(m+{m_1 \over 4})}$$</p>
+					$$ \theta(t)=\theta_0 \cdot e^{{-K_1 \over 2 \cdot (m + {m_1 \over 4})}t}\cdot \cos(\sqrt{{4 \cdot g(m+{m_1 \over 2})(m+{m_1 \over 4}) - l \cdot K^{2}_{1} \over 4 \cdot l(m+{m_1 \over 4})^2}}t) - sign(\dot\theta) \cdot {K_2 \over l \cdot g(m+{m_1 \over 4})}$$</p>
 
 
 					<h1>Simulation Simulink</h1>

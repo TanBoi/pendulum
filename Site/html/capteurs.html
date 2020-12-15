@@ -61,7 +61,7 @@
 			
 
           <h1>Potentiomètre</h1>
-          <h5>Position</h5>
+          <h5>Vishay 357B0103MAB251S22 - Position</h5>
 
           <div class="row align-items-center" >
 <div class="col">
@@ -77,12 +77,12 @@ debugPrint(&huart2, positionP2);</code></pre>
 </div>
 </div>
           <div class="row align-items-center col" style="margin-top:30px;">
-          <p clas="col">Le potentiomètre nous sert à mesurer la position du pendule, il est fixé au niveau de l’axe de rotation. Il est relié à une entrée analogique de la carte stm32, et sa valeur est récupérée dans le premier élément du tableau adc_buf à l’aide du périphérique ADC (Analog to Digital Converter). Sa valeur, comme celle des autres capteurs est affichée sur le port série afin de pouvoir la récupérer sur Matlab et de tracer les courbes appropriées.</p>
+          <p clas="col">Le potentiomètre nous sert à mesurer la position du pendule, il est fixé au niveau de l’axe de rotation. Il est relié à une entrée analogique de la carte stm32, et sa valeur est récupérée dans le dernier élément du tableau adc_buf à l’aide du périphérique ADC (Analog to Digital Converter). Sa valeur, comme celle des autres capteurs est affichée sur le port série afin de pouvoir la récupérer sur Matlab et de tracer les courbes appropriées.</p>
 </div>
 
 
 					<h1>Encodeur incrémental</h1>
-          <h5>Vitesse</h5>
+          <h5>Baumer IVO GI342.N707129000 - Vitesse</h5>
 
 
           <div class="row align-items-center ">
@@ -106,7 +106,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 
 
           <h1>Accéléromètre</h1>
-          <h5>Accélération</h5>
+          <h5>ADXL 335 - Accélération</h5>
 
           <div class="row align-items-center" >
             <div class="col">
@@ -124,7 +124,7 @@ debugPrint(&huart2, accelx);
 debugPrint(&huart2, accely);</code></pre>
 </div>
 </div>
-          <p>L’accéléromètre, accroché à l’extrémité du pendule, permet de récupérer les valeurs d’accélérations. Nous n’utilisons que 2 axes sur les 3 disponibles, car le pendule ne bouge que selon 2 axes. Il est relié à 2 entrées analogiques, et les valeurs sont récupérées au même moment, et de la même manière que pour le potentiomètre, dans les 2 derniers éléments du buffer adc_buf.</p>
+          <p>L’accéléromètre, accroché à l’extrémité du pendule, permet de récupérer les valeurs d’accélérations. Nous n’utilisons que 2 axes sur les 3 disponibles, car le pendule ne bouge que selon 2 axes. Il est relié à 2 entrées analogiques, et les valeurs sont récupérées au même moment, et de la même manière que pour le potentiomètre, dans les 2 premiers éléments du buffer adc_buf.</p>
 
 				<hr/>
 		</main>

@@ -61,13 +61,27 @@
 			<main role="main" class="container">
 			
 					<h1>Matlab</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+					<p>Nous avons fait le choix d'utiliser Matlab en tant qu'IHM car cela nous simplifie l'affichage des courbes et le traitement des données. De plus, étant en liaison simplex, l'éfficatité de la communication avec la carte STM32 n'a pas d'importance. Nous affichons donc en "temps reel" les courbes obtenue par la carte (Voir vidéo ci-dessous). Néanmoins le programme ne tourne pas à une période égal à 50ms et prend donc du retard au fur et à mesure que le programme avance, mais ce n'est pas un soucis car on peut globalement obtenir le temps d'oscillation du pendule en temps réel. On obtient environ 7 secondes, soit environ ce qu'on obtient en Théorique.</p>
 
 <video src="../result.mp4" width=100%  muted controls>
 </video>
 					<h1>Eagle</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt sapien a ante imperdiet, eget fringilla orci tristique. Fusce iaculis massa aliquam finibus efficitur. Nulla vulputate eu nisl quis sagittis. Duis faucibus diam vitae pharetra laoreet. Aenean euismod nisi sem, ut dignissim nisi dictum non. Cras luctus ullamcorper sapien sed posuere. Pellentesque tempus, nunc et aliquam fermentum, dolor tortor ultrices orci, sed pharetra leo ex eu magna. Ut blandit dolor et molestie dapibus.</p>
+					<p>Nous utilisons pour ce projet les composants suivants:
+            <ul>
+    <li>STM F411RE</li>
+    <li>Encoder Baumer IVO GI342.N707129000</li>
+    <li>Accéléromètre ADXL335</li>
+    <li>Potentiomètre Vishay 357B0103MAB251S22</li>
+  </ul>
+Après avoir compris le principe de fonctionnement de chaque composant de la liste ci-dessus, et ainsi tester chaque composant, on choisi les pins nécessaires pour chaque sur la carte STM32. Ensuite, on a importé des librairies necessaires sur EAGLE, nous avions besoins du tempate de la carte STM, de 4 résistances pour un pont diviseur et des composants permettant de relier les capteurs. Puis, on a branché tous les composants pour créer le dessin du PCB. Et pour finir, nous avons optimiser le positionnement de chaque composants sur la carte électronique. </p>
 
+
+          <h4 style="text-align: center;">Fichier .sch</h4>
+<img src="../img/ihm/sch.png" style="width: 80%;margin-left: 9%;">
+
+
+          <h4 style="text-align: center;">Fichier .brd</h4>
+<img src="../img/ihm/brd.png" style="width: 80%;margin-left: 9%;">
 
 				<hr/>
 		</main>
